@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header,
+nav,
+main,
+section,
+aside,
+footer {
+  padding: 20px;
+  border: 1px soli black;
+  color: antiquewhite;
+}
+
+body {
+  background-color: antiquewhite;
+}
+header {
+  background: cadetblue;
+}
+nav {
+  background: cornflowerblue;
+  display: inline-block;
+}
+main {
+  background: darkorchid;
+}
+section {
+  background: salmon;
+  margin-top: 20px;
+}
+aside {
+  background: red;
+  margin-top: 20px;
+}
+footer {
+  background: royalblue;
+  display: flex;
+  justify-content: center;
+}
+@media screen and (min-width: 640px) {
+  main {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  h1 {
+    flex: 0 1 100px;
+  }
+  section {
+    flex: 1;
+  }
+
+  aside {
+    flex: 1;
+  }
+}
