@@ -1,0 +1,19 @@
+header {
+  background: #00ccff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #eb1935;
+}
+
+header button {
+  background: #00ccff;
+}
+
+header button:hover {
+  background: red;
+}
+/*# sourceMappingURL=style.css.map */

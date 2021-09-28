@@ -1,0 +1,33 @@
+.navigation-item {
+  text-align: center;
+  font-size: $fontsize;
+  padding-bottom: 10px;
+}
+.main-navigation {
+  border-bottom: $borderStyle;
+  background-color: rgb(241, 239, 239);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.main-navigation img {
+  width: 100px;
+}
+
+.navigation-item {
+  text-align: center;
+  font-size: $fontsize;
+  padding-bottom: 10px;
+}
+.sub-navigation {
+  height: 100%;
+  background-color: $background-color;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+}
+.sub-navigation a {
+  color: white;
+}

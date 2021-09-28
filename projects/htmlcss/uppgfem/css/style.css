@@ -1,0 +1,26 @@
+section {
+  background-color: lightgray;
+  height: 300px;
+  width: 300px;
+}
+ol :first-child {
+  background-color: lime;
+  height: 20px;
+}
+section:first-of-type section {
+  font-weight: bold;
+}
+.crossed-out {
+  text-decoration: line-through;
+}
+
+.footer-hover:hover {
+  font-family: fantasy;
+  background-color: tomato;
+}
+
+footer {
+  height: 100px;
+  width: 100%;
+  background-color: yellow;
+}
